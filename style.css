@@ -1,0 +1,124 @@
+body {
+	background-color: #C0FFEE;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3.5em;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-family: 'Bungee Shade', cursive;
+	margin-top: 0;
+
+}
+
+p {
+	margin: 0;
+}
+#Sspoils {
+	float: right;
+	font-size: 1.5em;
+	font-family: 'Bungee', cursive;
+	border: 1px dashed black;
+	display: inline;
+	margin: 0;
+}
+
+#Sspoils_counter {
+	margin: 0;
+}
+
+#Dspoils {
+	float: left;
+	font-size: 1.5em;
+	font-family: 'Bungee', cursive;
+	border: 1px dashed black;
+	display: inline;
+	margin: 0;
+}
+
+#Dspoils_counter {
+	margin: 0;
+}
+
+#gridParent {
+	position: relative;
+}
+
+#grid {
+	width: 600px;
+	height: 600px;
+	border: 3px solid grey;
+	color: red;
+	position: relative;
+  	top: 0px;
+  	left: 50%;
+  	margin: 70px 0 0 -300px;
+
+}
+
+.blackcell, .whitecell {
+	height: 75px;
+	width: 75px;
+	float: left;
+	position: relative;
+}
+.blackcell  { /*BLACK SQUARES*/
+	background-color: #1d2120;
+;
+}
+
+.whitecell { /*WHITE SQUARES*/
+	background-color: #e8edf3;
+}
+
+.shillary, .drumpf {
+	height: 75px;
+	width: 75px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter: drop-shadow(2px 2px 2px red) 
+	        drop-shadow(-2px -2px 2px red);
+}
+
+.shillary {
+	filter: drop-shadow(2px 2px 2px blue) 
+	        drop-shadow(-2px -2px 2px blue);
+}
+
+.drumpf {
+	filter: drop-shadow(2px 2px 2px red) 
+	        drop-shadow(-2px -2px 2px red);
+}
+
+.hover {
+	opacity: 0.7;
+}
+
+.selected {
+		filter: drop-shadow(2px 2px 2px white) 
+	        drop-shadow(-2px -2px 2px white);
+}
+
+/*
+
+rowcolumn
+
+00 01 02 03 04 05 06 07
+
+10 11 12 13 14 15 16 17
+
+20 21 22 23 24 25 26 27
+
+30 31 32 33 34 35 36 37
+
+40 41 42 43 44 45 46 47
+
+50 51 52 53 54 55 56 57
+
+60 61 62 63 64 65 66 67
+
+70 71 72 73 74 75 76 77
+
+*/
